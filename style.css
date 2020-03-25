@@ -1,0 +1,289 @@
+body,
+html {
+  font-family: 'Poppins', sans-serif; 
+  margin: 0;
+  background: #ffff;
+  text-decoration: none;
+}
+
+.main-wrapper {
+  max-width: 80%;
+}
+
+header {
+  width: 100%;
+  background-image: url('./assets/orange-house.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-box img {
+  max-width: 50%;
+  display: flex;
+  justify-items: center;
+  margin: auto;
+}
+
+.hero-wrapper {
+  margin: 170px 0px 60px 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: left;
+  font-size: 42px;
+  width: fit-content;
+  color: white;
+  background-color: rgb(46, 46, 46);  
+  margin: 0px;
+  padding: 0px 15px;
+}
+
+h4 {
+  display: flex;
+  justify-content: left;
+  background-color: rgb(46, 46, 46); 
+  margin: 0;
+  color: white;
+  width: fit-content;
+  box-sizing: border-box;
+  padding: 7px 15px 7px 15px;
+}
+
+.ranta {
+  color: orangered;
+  padding: 0px 4px;
+}
+
+.top-content-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 0px 60px 130px;
+  width: 55%; 
+}
+
+.welcome-wrapper {
+  display: flex; 
+}
+.welcome-text {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: rgb(113, 196, 177);
+}
+.avatar-boije {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  height: 40px;
+}
+.boije-container {
+  display: flex;
+  align-items: baseline;
+  margin-top: 30px;
+} 
+
+.boije-name {
+  flex-direction: row; 
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.title {
+  margin-left: 5px;
+  display: contents;
+  font-size: 12px;
+  color: black;
+}
+
+.date {
+  display: inline-flex;
+  flex-direction: row;
+  justify-items: flex-end;
+  align-items: center;
+  margin-left: 270px;
+  font-size: 12px;
+}
+
+h2 {
+  color: black;
+  font-weight: bold; 
+  margin-bottom: 0px;
+}
+
+.boranta-container h2 {
+  border-top: 0.5px solid lightgrey;
+  padding-top: 60px;
+}
+
+.boranta-container {
+  display: inline-flex;
+  flex-direction: column;  
+  font-size: 16px;
+}
+
+.bolanespecialister {
+  display: inline-flex;
+  flex-direction: column;  
+  font-size: 16px;
+} 
+
+/* sidebar with icons */
+.icon-container {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-left: 20px;
+  font-size: 12px; 
+}
+
+.icon-wrapper p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.icon-arrow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.icon-arrow-text {
+  margin-left: 10px;
+}
+.icon-calendar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.icon-calendar-text {
+  margin-left: 10px;
+}
+
+.icon-barnspar { 
+ display: flex;
+ align-items: center;
+}
+
+.icon-barnspar-text {
+  margin-left: 10px;
+}
+
+.grey-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(235, 235, 235)   
+}   
+
+.two-boxes {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.two-boxes img {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  background-color: white;
+  margin: 20px 0px 0px 60px;
+}
+
+p.skatteverket-text {
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+  width: 45%;
+  padding: 12px;    
+  background-color: white;
+  font-size: 16px;
+}
+
+.btn { 
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 18px;
+  width: 110px;
+  margin: 35px 0px 40px 130px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgb(15, 167, 146);
+  color: white;
+  font-size: 10px;
+}
+
+.illustration-wrapper {
+  flex-direction: row;
+  justify-content: right;
+  width: 45%;
+  margin: 15px 0px;
+  background-color: rgb(15, 167, 146);
+}
+
+.illustration-wrapper img {
+  display: flex;
+  justify-content: center;
+  /* width: 110%; */
+  background-color: rgb(15, 167, 146);
+  margin: 120px 0px 0px 50px;
+}
+
+.footer-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: left; 
+  text-align: left;
+  max-width: 60%;
+  margin: 40px 0px 60px 140px;
+  font-size: 16px;
+} 
+
+
+@media (max-width: 667px) {
+  .h1 {
+    width: 50%;
+  }
+  .date {
+    margin: 10px;
+  }
+  .icon-container {
+    display: none;
+  }
+
+  p.skatteverket-text {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  a.btn {
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+  }
+  .illustration-wrapper {
+     display: none;
+   }
+}  
